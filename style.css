@@ -1,0 +1,155 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    /* padding: 80px; */
+
+}
+
+/* MENÚ */
+.navbar{
+   background-color:white;
+   padding: 1% 0;
+   font-size: 1.2em;
+
+}
+
+/* LOGO */
+.navbar-brand{
+    min-height: 55px;
+    padding: 10px 15px 10px; 
+}
+
+/* COLOR GRIS SOBRE LISTA MENU */
+.navbar-default .navbar-nav li a{
+    color: #d5d5d5;
+}
+
+/* EFECTO HOVER */
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+    color:black;
+}
+
+
+
+/* IMAGEN DE FONDO */
+#home{
+    background: url("img/taxi2.png") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size:cover;
+}
+
+
+/* DISEÑO TEXTO HERO */
+.landing-text{
+    display: table-cell;
+    text-align: right;
+    /* padding-top: 30%; padding no es necesario con vertical align*/
+    vertical-align: middle;
+    color: white;  
+} 
+
+/* H1 */
+.landing-text h1{
+    font-size: 300%;
+    font-weight: 500%;
+}
+
+
+/* PADDING TOP DAR ESPACIO EN LA PARTE SUPERIOR*/
+.padding{
+    padding: 80px 0;
+}
+
+.padding img{
+    width: 100%;
+}
+
+
+
+#fondo{
+    background-color: #f7b617;
+}
+
+/* #bordeado{
+    border:white;
+    height: 10px;
+    width: 10%
+    
+} */
+
+/* IMAGEN FIJA EN EL FONDO */
+#fixed{
+    background: url("img/conduce.jpg") no-repeat center center fixed;
+    display: table;
+    height: 40%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.alineado{
+    text-align: left
+}
+
+#fondo2{
+    background-color: #f7b617;
+}
+
+h3{
+    font-size: 240%;
+    font-weight: 300%;
+}
+
+p{
+    font-size: 150%;
+    font-weight: 200%;
+}
+
+footer{
+    width: 100%;
+    background-color: #2b2b2b;
+    /* padding: 5% 5% 10% 5%; */
+
+}
+
+.lista li{
+    list-style: none;
+}
+
+/* #logoblanco{
+    text-align: left;
+} */
+
+/* .fa{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.fa:hover{
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
+.icon{
+    max-width:200px;
+} */
+
+@media(max-width:760px){
+    .landing-text h1{
+        font-size: 100%;
+    }
+
+}
+
+
+
+
+
+
+/* Color-lab: #f7b617
+Color gris (footer): #2b2b2b  */
