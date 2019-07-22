@@ -1,243 +1,221 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
-html, body{
-    height: 100%;
-    width: 100%;
-    color: white;
-    /* padding: 80px; */
-    box-sizing: border-box;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: white;
+  /* padding: 80px; */
+  box-sizing: border-box;
 }
 
 /* MENÚ */
-.navbar{
-   background-color:white;
-   padding: 1% 0;
-   font-size: 1.2em;
-
+.navbar {
+  background-color: white;
+  padding: 1% 0;
+  font-size: 1.2em;
 }
 
 /* LOGO */
-.navbar-brand{
-    min-height: 55px;
-    padding: 10px 15px 10px; 
+.navbar-brand {
+  min-height: 55px;
+  padding: 10px 15px 10px;
 }
 
 /* COLOR GRIS SOBRE LISTA MENU */
-.navbar-default .navbar-nav li a{
-    /* color: #d5d5d5; */
-    color: black;
+.navbar-default .navbar-nav li a {
+  /* color: #d5d5d5; */
+  color: black;
 }
 
 /* EFECTO HOVER */
-.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
-    /* color:black; */
-    color: #f7b617;
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:active {
+  /* color:black; */
+  color: #f7b617;
 }
-
-
 
 /* IMAGEN DE FONDO */
-#home{
-    background: url("img/taxiokok.jpg") no-repeat center center fixed;
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    background-size:cover;
-    
+#home {
+  background: url("img/taxiokok.jpg") no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
 }
-
 
 /* DISEÑO TEXTO HERO */
-.landing-text{
-    display: table-cell;
-    text-align: right;
-    /* padding-top: 30%; padding no es necesario con vertical align*/
-    vertical-align: middle;
-    color: white;  
-} 
+.landing-text {
+  display: table-cell;
+  text-align: right;
+  /* padding-top: 30%; padding no es necesario con vertical align*/
+  vertical-align: middle;
+  color: white;
+}
 
 /* H1 */
-.landing-text h1{
-    font-size: 200%;
-    font-weight: 100%;
+.landing-text h1 {
+  font-size: 200%;
+  font-weight: 100%;
 }
 
-.linea-separacion{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* width: 100%; */
-    align-items: center;
-
-    
+.linea-separacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 100%; */
+  align-items: center;
 }
 
-.linea{
-    display: flex;
-    align-self: flex-end;
-    color: white;
-    border-color: white;
-    width: 30%;
-    size: 5px;
-    align-items: center; 
+.linea {
+  display: flex;
+  align-self: flex-end;
+  color: white;
+  border-color: white;
+  width: 30%;
+  size: 5px;
+  align-items: center;
 }
 
-.backamarillo{
-    background: #f7b617;
-    width: 40%;
-    align-items: inherit;
-    padding: 1%;
-    text-align: start;
-    float: right;
-
+.backamarillo {
+  background: #f7b617;
+  width: 40%;
+  align-items: inherit;
+  padding: 1%;
+  text-align: start;
+  float: right;
 }
-
 
 /* PADDING TOP DAR ESPACIO EN LA PARTE SUPERIOR*/
-.padding{
-    padding: 80px 0;
+.padding {
+  padding: 80px 0;
 }
 
-.padding img{
-    width: 100%;
+.padding img {
+  width: 100%;
 }
-
 
 /* DESSCARGA APP */
-#fondo{
-    /* justify-content: space-around; */
-    background-color: #f7b617;
-
+#fondo {
+  /* justify-content: space-around; */
+  background-color: #f7b617;
 }
 
-#border{
-    border: solid white 1px;
-
+#border {
+  border: solid white 1px;
 }
 
 /* IMAGEN FIJA EN EL FONDO */
-#fixed{
-    background: url("img/conduce.jpg") no-repeat center center fixed;
-    display: table;
-    height: 40%;
-    position: relative;
-    width: 100%;
-    background-size: cover;
+#fixed {
+  background: url("img/conduce.jpg") no-repeat center center fixed;
+  display: table;
+  height: 40%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
 }
 
-.alineado2{
-    text-align: start;
+.alineado2 {
+  text-align: start;
 }
 
-.alineado{
-    float: right;
-    text-align: start;
-    background: rgb(35,35,36, 0.4);
-    
+.alineado {
+  float: right;
+  text-align: start;
+  background: rgb(35, 35, 36, 0.4);
 }
 
-#boton-conductor{
-    background: #f7b617;
-    color: white;
-    border: none;
-
+#boton-conductor {
+  background: #f7b617;
+  color: white;
+  border: none;
 }
-
 
 /* TRAZADO DE RUTA FONDO*/
-#fondo2{
-    background-color: #f7b617;
-    text-align: center;
-   
+#fondo2 {
+  background-color: #f7b617;
+  text-align: center;
 }
 
-
-h3{
-    font-size: 240%;
-    font-weight: 300%;  
+h3 {
+  font-size: 240%;
+  font-weight: 300%;
 }
 
-p{
-    font-size: 150%;
-    font-weight: 200%;   
+p {
+  font-size: 150%;
+  font-weight: 200%;
 }
 
-.form-control{
-    background: transparent;
-    color: white;
-    border: solid white 1px;
+.form-control {
+  background: transparent;
+  color: white;
+  border: solid white 1px;
 }
 
 input::-webkit-input-placeholder {
-    color: white !important;
-    }
+  color: white !important;
+}
 
-    .icono{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: #f7b617;
-        height: 120vh;
-        color: white;
-        margin: 0;
-        font-size: 1rem;
-        padding: 0.5rem;
-    
-    }
+.icono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7b617;
+  height: 120vh;
+  color: white;
+  margin: 0;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
 
-#map{
-    height: 400px;
-    width: 100%;
-    /* margin-left:600px; */
-   /* position: relative;
+#map {
+  height: 400px;
+  width: 100%;
+  /* margin-left:600px; */
+  /* position: relative;
    left:600px;
-   bottom: 300px; */ 
+   bottom: 300px; */
 }
 
-footer{
+footer {
+  width: 100%;
+  background-color: #2b2b2b;
+  /* padding: 5% 5% 10% 5%; */
+}
+
+.lista li {
+  list-style: none;
+}
+
+#logoblanco {
+  text-align: left;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: white;
+}
+
+.fa:hover {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+.icon {
+  max-width: 200px;
+}
+
+@media (max-width: 760px) {
+  .backamarillo {
     width: 100%;
-    background-color: #2b2b2b;
-    /* padding: 5% 5% 10% 5%; */
-
+  }
 }
-
-.lista li{
-    list-style: none;
-}
-
-#logoblanco{
-    text-align: left;
-}
-
-.fa{
-    padding: 15px;
-    font-size: 25px;
-    color: white;
-    
-}
-
-.fa:hover{
-    color: #d5d5d5;
-    text-decoration: none;
-}
-
-.icon{
-    max-width:200px;
-} 
-
-@media(max-width:760px){
-    .backamarillo{
-        width: 100%;
-        
-    }
-
-}
-
 
 /* MODAL */
 
@@ -316,6 +294,13 @@ h2{
 
 }
 
+.flex{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
 .modal{
     display: none;
@@ -328,4 +313,5 @@ h2{
     height: 100%;
     
  
-  }  */
+  } 
+ */
