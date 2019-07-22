@@ -9,3 +9,18 @@ function createMap() {
 
         map = new google.maps.Map(document.getElementById("map"),options);
     }
+
+
+    // let registro=document.getElementById("registro");
+    // let modal= document.getElementById("miModal");
+   
+
+    // registro.addEventListener("click", function(){
+    //     modal.style.display = "block";
+    // })
+
+ 
+
+
+
+
