@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <script src="https://kit.fontawesome.com/4f820322b0.js"></script> -->
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Labcar</title>
@@ -46,7 +43,7 @@
         <h1>Disfruta del viaje <br>
             Eres dueño de tu tiempo</h1>
         <h3>Viaja con <img src="img/logo-blanco.png" alt="" srcset=""></h3>
-        <a href="#" class="btn btn-default btn-lg">REGÍSTRATE</a> <br>
+        <a href="#" class="btn btn-default btn-lg" id="registro">REGÍSTRATE</a> <br>
         <div class="linea-separacion">
         <hr class="linea"><p>O bien</p><hr class="linea">
         </div>
@@ -69,10 +66,10 @@
             <div class="col-sm-6 col-md-4">
                 <img src="img/celular.png" alt="">
             </div>
-            <div class="col-sm-6 text-center col-md-4 text-left visible-lg">
-                <h3>Descarga la nueva app</h3>
-                <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-                <p>Con solo tocar un botón, un auto llega justoa tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+            <div class="col-sm-6 text-center col-md-4 text-left">
+                <h3 class="alineado2">Descarga la nueva app</h3>
+                <p class="alineado2">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+                <p class="alineado2">Con solo tocar un botón, un auto llega justoa tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
             </div>
                 </div>
             </div>
@@ -87,12 +84,12 @@
     <div class="container">
         <div class="row">
             
-            <div class="col-sm-12 text-right col-md-12 text-right">
+            <div class="col-sm-12  col-md-12">
                 <div class="alineado">
                 <h3>Conduce cuando quieras</h3> <br>
                 <p>LabCar es una opción flexible para alcanzar <br> tus metas financieras</p>
-                <a href="#" class="btn btn-default btn-lg" id="boton-conductor">Conviértete en conductor</a> <br>
-            </div>
+                <a href="#" class="btn btn-default btn-lg" id="boton-conductor">Conviértete en conductor</a>
+                <br> <br> 
             </div>  
         
         </div>    
@@ -108,27 +105,26 @@
 
 <div class="padding" id="fondo2">
     <div class="container" >
-        <div class="row">
-                <div id="map"></div>
-                <form >
-            <div class="col-sm-12 text-center col-md-6"> 
+        <div id="map"></div>
+       <div class="row">
+            <form >
+            <div class="col-sm-12 col-md-12">
                 
-                     <h3>Tarifas</h3>
+                    <h3 >Tarifas</h3>
                      <p>Consulta las tarifas LabCar aquí</p>
-                     <div class="form-row">
+                     <!-- <div class="form-row"> -->
                         <div class="col">
                             <input type="text" class="form-control" placeholder="Ingrese su punto de partida"> <br>
                         </div>
                         <div class="col">
-                            <!-- <img class="icono" src="img/flecha.png" alt="" srcset="">--> <input type="text" class="form-control" placeholder="Ingrese su destino"> <br>
+                            <input type="text" class="form-control" placeholder="Ingrese su destino"> <br>
                         </div>
                         <a href="#" class="btn btn-default btn-lg"><strong>¡TRAZAR RUTA!</strong></a>
-                    </div>
-                    
-                </form>
+                        
+               </div>  
+            </form>   
         </div>
     </div>
-</div>
 </div>
 
 <!--FOOTER-->
@@ -180,10 +176,8 @@
         
     </div>
     <hr>
+    <p>&copy; 2019 LabCar technologies Inc. </p>
 </footer>
-
-
-<!-- AIzaSyAi2eexSBh0nKeOAQO8vrL58bsK8lSQK-I -->
 
 
 
@@ -194,14 +188,3 @@ type="text/javascript"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
-  <!-- <h3>Tarifas</h3><br>
-                <p>Consulta las tarifas LabCar aquí</p><br>
-                <input type="text" placeholder="Ingrese su punto de partida"> <br><br>
-                <input type="text" placeholder="Ingrese su destino"> <br><br>
-                <a href="#" class="btn btn-default btn-lg">¡TRAZAR RUTA!</a>
-            </div>
-            <div class="col-sm-12 col-md-6"> -->
-                <!-- <img src="img/celular.png" alt=""> -->
-            <!-- </div> -->
